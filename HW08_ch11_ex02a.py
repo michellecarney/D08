@@ -29,15 +29,12 @@ pledge_histogram = {}
 def histogram_old(s):
     d = dict()
     for c in s:
-        if c not in d:
-            d[c] = 1
-        else:
-            d[c] += 1
+        d[c] = d.get(c,0) + 1
     return d
 
 
 def histogram_new(s):
-    ...
+    with open("pledge.txt", "r") as pledge:
 
 
 def get_pledge_list():

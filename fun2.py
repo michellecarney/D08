@@ -4,12 +4,12 @@
 # Modify the variables so that all of the statements evaluate to True. ########
 ###############################################################################
 
-var1 = 
-var2 = 
-var3 = 
-var4 = 
-var5 = 
-var6 = 
+var1 = 30
+var2 = 'piiiin'
+var3 = [1, 2, 3, 4, 5]
+var4 = (1, 2, 'Hello, Python!')
+var5 = dict(happy=7, egg='salad', tuna='fish')
+var6 = 41.3
 
 ###############################################################################
 # Don't edit anything below this comment ######################################
@@ -41,3 +41,9 @@ print(var5.get("egg") == "salad")
 print(len(var5) == 3)
 var5["tuna"] = "fish"
 print(len(var5) == 3)
+
+
+
+
+
+
